@@ -1,0 +1,531 @@
+/* general setting */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    scroll-behavior: smooth;
+    /* transition: all 0.1s ease-in-out; */
+    /* overflow-x: hidden; */
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+section {
+    overflow: hidden;
+}
+
+/* button:hover {
+    color: #fff !important;
+    background-color: #1468cd !important;
+} */
+
+/* header */
+
+header {
+    background-color: #F7F9FE;
+    background-image: url(../images/shape-a.png);
+    overflow: hidden;
+}
+
+nav {
+    overflow: hidden;
+
+    /* border-bottom: 1px solid burlywood; */
+
+
+}
+
+.LOGO h3 {
+    color: #3A4B6B;
+}
+
+nav .logo-color {
+    color: #FF5362;
+}
+
+.color-19 {
+    color: #4C6691;
+}
+
+nav ul li {
+    font-size: 14px;
+}
+
+
+.color-btn {
+    border-radius: 25px;
+    background-color: #2B80EA;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+}
+
+.color-btn:hover {
+    background-color: #2070d2 !important;
+    border: none !important;
+}
+
+nav ul li a:hover {
+    color: #1468cd !important;
+}
+
+.bord-hov:hover {
+    border: none;
+}
+
+@media (max-width: 1250px) {
+    li {
+        font-size: 13px;
+    }
+}
+
+/* start section of corona */
+.width-all {
+    width: 400px;
+}
+
+.corona-font {
+    margin-top: 90px;
+    margin-bottom: 20px;
+    color: #50658E;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.corona-font .co-font h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 80px;
+
+}
+
+
+.sizer-f {
+    font-size: 11px;
+    margin-bottom: 20px;
+}
+
+.h-colr {
+    color: red;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.h2-font {
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.h2-font,
+.h-colr {
+    font-size: 25px
+}
+
+.image-width {
+    width: 700px;
+}
+
+/* buttons in corona section */
+.btn-protect {
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 900;
+    background-color: #2B80EA;
+    border: none;
+    color: #fff;
+}
+
+.about-covid {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.btn-protect:hover {
+    background-color: #1468cd;
+}
+
+.about-covid:hover {
+    color: #1468cd;
+}
+
+.count-font {
+    color: #7D92BB;
+    font-size: 11px !important;
+}
+
+.color-of-counter {
+    color: #465774;
+}
+
+.last-size {
+    margin-top: 20px;
+    font-size: 10px;
+    font-style: italic;
+    color: #7D92BB;
+
+
+}
+
+/* start section of about this diesese */
+.about h6 {
+    color: #2B80EA;
+}
+
+.coronaVirus h3 {
+    font-family: 'Oswald', sans-serif;
+    color: #50658E;
+}
+
+.affect {
+    color: #3D4C69;
+}
+
+.coronaVirus p {
+    color: #3D4C69;
+}
+
+
+.what-you-need {
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 40px 0px rgba(80, 101, 142, 0.08);
+}
+
+.about-this-disease ul li {
+    border-bottom: 1px solid #e7e8ff;
+    padding: 20px 30px;
+    font-weight: bold;
+    color: #465675;
+}
+
+.about-this-disease ul a li {
+    display: flex;
+    justify-content: space-between;
+    color: #2a81ea;
+}
+
+/* start section of spread */
+
+.section-spread {
+    background-color: #F6F9FE;
+}
+
+.is-spread {
+    color: #2a81ea;
+    letter-spacing: 2px;
+}
+
+.transimassion {
+    font-family: 'Oswald', sans-serif;
+    color: #50658E;
+}
+
+.blue-border {
+    border-bottom: 6px solid #9cc2f7;
+    width: 500px;
+}
+
+.size-box {
+    border-radius: 10px;
+    /* padding: 0; */
+    border-bottom: 3px solid #fff;
+    border-top: 3px solid #fff;
+    background-color: #fff;
+    box-shadow: 0px 5px 40px 0px rgba(80, 101, 142, 0.08);
+
+
+}
+
+.Have-question {
+    background-color: #2B80EA;
+    border: none;
+    border-radius: 25px;
+    padding: 5px 20px;
+    color: #fff;
+}
+
+.Have-question:hover {
+    color: #fff;
+    background-color: #1468cd !important;
+}
+
+.Person-to-person-color {
+    color: #2a81ea;
+}
+
+/* start section symptom */
+
+.symptom-image {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.wraning-i {
+    color: #2B80EA;
+}
+
+.find-answer button {
+    background-color: #2B80EA;
+    border-radius: 25px;
+    color: #fff;
+}
+
+.find-answer button:hover {
+    color: #fff;
+    background-color: #1468cd !important;
+}
+
+/* end section symptom */
+
+
+/* start section of prevent */
+.wash {
+    background-color: #2B80EA !important;
+    border-radius: 25px;
+    color: #fff;
+}
+
+.wash:hover {
+    color: #fff;
+    background-color: #1468cd !important;
+}
+
+.q-a {
+    color: #2B80EA;
+
+
+}
+
+.q-a:hover {
+    color: #1468cd !important;
+
+}
+
+
+
+
+
+
+/* end section of prevent */
+
+/* start section of prevent */
+.prevent {
+    background-color: rgb(246, 249, 254);
+}
+
+.steps {
+    color: #465774;
+}
+
+.steps-color {
+    background-color: #fff;
+    box-shadow: 0px 5px 40px 0px rgba(80, 101, 142, 0.08);
+}
+
+.color-i-steps {
+    color: #3ECA93;
+}
+
+/* end section of prevent*/
+
+
+/* start section of treatment */
+.treatment {
+    background-color: #2766BB;
+    background-image: url("/images/shape-a.png");
+}
+
+.careful h6 {
+    color: #73E3FE;
+    letter-spacing: 2px;
+}
+
+.careful h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.careful h1,
+.text-careful p {
+    color: #fff;
+}
+
+.care-midecal {
+    border-radius: 5px;
+    background-color: #1B47A0;
+    color: #fff;
+}
+
+
+
+/* end section of treatment */
+
+
+/* start section of donot  */
+.section-donot {
+    background-color: #F6F9FE;
+}
+
+.donot p {
+    color: #50658E;
+}
+
+.donot h6 {
+    color: #2B80EA;
+    letter-spacing: 2px;
+}
+
+.yourself {
+    font-family: 'Oswald', sans-serif;
+    color: #50658E;
+}
+
+.image-do img {
+
+    border-radius: 50%;
+    border: 2px solid #2a81ea;
+    background-color: #fff;
+
+
+}
+
+.avoid-font {
+    font-size: 13px;
+    color: #2B80EA;
+}
+
+/* end section of donot  */
+
+
+
+/* section of latest update  */
+
+.latest h5 {
+    color: #2B80EA;
+}
+
+.latest h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #50658E;
+}
+
+
+/* start section of latest update  */
+.latest-update {
+    background-color: #F6F9FE;
+}
+
+.think-sick {
+
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.think-sick:hover {
+    color: #2B80EA;
+    cursor: pointer;
+}
+
+.updates {
+    border-radius: 20px;
+    /* padding: 0; */
+    background-color: #fff;
+    box-shadow: 0px 5px 40px 0px rgba(80, 101, 142, 0.08);
+}
+
+.updates img {
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* footer */
+.footer-img {
+    background-image: url(/images/shape-a.png);
+    background-color: #151C2E;
+    color: #fff;
+}
+
+.text-footer-color {
+    color: #fff;
+}
+
+.covid-text {
+    font-size: 15px;
+    color: #b2bfe0;
+}
+
+.logo-color {
+    color: #FF5362;
+}
+
+.social-icon {
+    background-color: #50658e;
+    width: 30px;
+    height: 25px;
+
+}
+
+.social-icon:hover {
+    background-color: #2a81ea;
+    cursor: pointer;
+
+}
+
+.footer-img ul li {
+    margin-bottom: 8px;
+
+}
+
+.footer-img ul li a {
+    color: #b2bfe0;
+}
+
+.footer-img ul li a:hover {
+    color: #2a81ea;
+}
+
+.footer-border {
+    border-bottom: 1px solid #2C3243
+}
+
+.copy-right {
+    color: #b2bfe0;
+    font-size: 14px;
+}
+
+.copy-right p span {
+    color: #fff;
+}
+
+.copy-right p a {
+    color: #b2bfe0;
+}
+
+.copy-right p a:hover {
+    color: #2a81ea;
+}
+
+/* top button */
+
+.top {
+    color: #fff;
+    background-color: #2B56F5;
+    position: fixed;
+    right: 40px;
+    bottom: 30px;
+    font-size: 27px;
+    border: none;
+    width: 50px;
+    height: 50px;
+    display: none;
+
+
+}
+
+/* end footer  */
