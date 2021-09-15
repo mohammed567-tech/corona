@@ -403,6 +403,281 @@ nav ul li a:hover {
 /* end section of donot  */
 
 
+/* start faq */
+
+.faq {
+    padding: 100px 0;
+}
+
+.faq .faq-text {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.faq .faq-text h5 {
+    color: #2a81ea;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+}
+
+.faq .faq-text h2 {
+    color: #50658e;
+    font-size: 42px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.faq .faq-boxs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.faq .faq-boxs .faq-left-box {
+    flex-basis: 70%;
+    margin: 0 auto 50px;
+}
+
+.faq .faq-boxs .faq-left-box ul li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #e7e8ff;
+    color: #50658e;
+    margin-bottom: 10px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    width: 93%;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.faq .faq-boxs .faq-left-box ul li.active,
+.faq .faq-boxs .faq-left-box ul li:hover {
+    color: #2a81ea;
+    border-color: #2a81ea;
+}
+
+.faq .faq-boxs .faq-left-box ul li svg {
+    text-align: right;
+}
+
+.faq .faq-boxs .faq-right-box {
+    flex-basis: 95%;
+    margin: auto;
+    background: #f7fafe;
+    border: 1px solid #e7e8ff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    height: fit-content;
+}
+
+.faq .faq-boxs .faq-right-box p {
+    color: #3d4b69;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+.faq .faq-boxs .faq-right-box a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.faq .faq-boxs .faq-right-box a:hover {
+    color: #0056b3;
+}
+
+.faq .faq-boxs .faq-right-box h3 {
+    color: #3d4b69;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.faq .faq-boxs .faq-right-box div ul li div.plus.first,
+.faq .faq-boxs .faq-right-box div ul li div.minus {
+    display: none;
+}
+
+.faq .faq-boxs .faq-right-box div ul li div {
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 8px 11px;
+}
+
+.faq .faq-boxs .faq-right-box div>ul.border {
+    padding: 10px 30px 0;
+    border-bottom: 1px solid #e7e8ff;
+}
+
+.faq .faq-boxs .faq-right-box div>ul.border:last-of-type {
+    border-bottom: none;
+}
+
+.faq .faq-boxs .faq-right-box .change-color {
+    color: #2a81ea;
+    background-color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.faq .faq-boxs .faq-right-box div ul li.main-title {
+    list-style: none;
+    color: #465675;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.faq .faq-boxs .faq-right-box div ul li.main-title:hover {
+    color: #2a81ea;
+}
+
+.faq .faq-boxs .faq-right-box .change-color li.main-title {
+    color: #2a81ea;
+}
+
+.faq .faq-boxs .faq-right-box div ul:nth-child(1) div.first {
+    display: block;
+}
+
+.faq .faq-boxs .faq-right-box .protects ul>h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #3d4b69;
+}
+
+.faq .faq-boxs .faq-right-box .protects ul li span {
+    line-height: 1.5em;
+    color: #3d4b69;
+    font-weight: bold;
+}
+
+.faq .faq-boxs .faq-right-box .protects ul ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.faq .faq-boxs .faq-right-box .protects ul ul ul {
+    list-style: circle;
+    margin-left: 20px;
+}
+
+.faq .faq-boxs .faq-right-box .protects ul ul a.underline {
+    border-bottom: 1px solid #2a81ea;
+    padding-bottom: 1px
+}
+
+.faq .faq-boxs .faq-right-box .protects ul ul a.underline:hover {
+    border-bottom: 1px solid #0056b3;
+    padding-bottom: 1px
+}
+
+.faq .faq-boxs .faq-right-box .protects ul span {
+    font-weight: bold;
+}
+
+.faq .faq-boxs .faq-right-box .protects ul ul li {
+    line-height: 1.5em;
+    color: #3d4b69;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.faq .faq-boxs .faq-right-box .outbreak ul h3 {
+    line-height: 1.5em;
+    color: #2a81ea;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.faq .faq-boxs .faq-right-box .outbreak ul h3:last-of-type {
+    line-height: 1.5em;
+    color: #3d4b69;
+    font-size: 16px;
+    margin-bottom: 20px;
+    cursor: default;
+}
+
+.faq .faq-boxs .faq-right-box .outbreak ul li span {
+    line-height: 1.5em;
+    color: #3d4b69;
+    font-weight: bold;
+}
+
+.faq .faq-boxs .faq-right-box .outbreak ul ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.faq .faq-boxs .faq-right-box .outbreak ul ul ul {
+    list-style: circle;
+    margin-left: 20px;
+}
+
+.faq .faq-boxs .faq-right-box .outbreak ul ul a.underline {
+    border-bottom: 1px solid #2a81ea;
+    padding-bottom: 1px
+}
+
+.faq .faq-boxs .faq-right-box .outbreak ul ul a.underline:hover {
+    border-bottom: 1px solid #0056b3;
+    padding-bottom: 1px
+}
+
+/* Start Style The Frequently Section Media Queries */
+
+@media (min-width: 992px) {
+    .faq .faq-text {
+        width: 70%;
+    }
+
+    .faq .faq-boxs {
+        flex-wrap: nowrap;
+    }
+
+    .faq .faq-boxs .faq-left-box {
+        flex-basis: 33.3%;
+        margin: 0;
+    }
+
+    .faq .faq-boxs .faq-right-box {
+        flex-basis: 66.6%;
+        margin: 0;
+    }
+}
+
+/* end faq */
+
 
 /* section of latest update  */
 
